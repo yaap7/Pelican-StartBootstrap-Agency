@@ -1,7 +1,7 @@
 Project 5
 ###############
 :date: 2016-11-21
-:image: startup-framework.png
+:image: startup-framework.webp
 :client: Agency For Pelican
 :client_Link: http://example.com
 :service: Web

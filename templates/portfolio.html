@@ -1,29 +1,28 @@
-   <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{PORTFOLIO_TITLE}}</h2>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">{{PORTFOLIO_TITLE}}</h2>
                     <h3 class="section-subheading text-muted">{{PORTFOLIO_SUBTITLE}}</h3>
                 </div>
-            </div>
-            <div class="row">
-                {% for article in articles_page.object_list %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{article.id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                <div class="row">
+                    {% for article in articles_page.object_list %}
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item {{ article.id }} -->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal{{ article.id }}">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/portfolio/{{ article.image }}" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">{{ article.title }}</div>
+                                <div class="portfolio-caption-subheading text-muted">{{ article.service }}</div>
                             </div>
                         </div>
-                        <img src="images/portfolio/{{ article.image }}" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ article.title }}</h4>
-                        <p class="text-muted">{{ article.service }}</p>
                     </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
             </div>
-        </div>
-    </section>
+        </section>

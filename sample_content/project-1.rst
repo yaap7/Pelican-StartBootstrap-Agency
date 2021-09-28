@@ -1,7 +1,7 @@
 Project 1
 ###############
 :date: 2016-11-21
-:image: dreams.png
+:image: dreams.webp
 :client: Agency For Pelican
 :client_Link: http://example.com
 :service: Web

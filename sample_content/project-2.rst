@@ -1,7 +1,7 @@
 Project 2
 ###############
 :date: 2016-11-21
-:image: escape.png
+:image: escape.webp
 :client: Agency For Pelican
 :client_Link: http://example.com
 :service: Web

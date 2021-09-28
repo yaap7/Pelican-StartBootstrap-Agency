@@ -1,7 +1,7 @@
 Project 3
 ###############
 :date: 2016-11-21
-:image: golden.png
+:image: golden.webp
 :client: Agency For Pelican
 :client_Link: http://example.com
 :service: Graphics
