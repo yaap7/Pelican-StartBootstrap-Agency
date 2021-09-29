@@ -21,12 +21,16 @@ So, some modifications was made to remove external files (fonts, CSS, JS) to red
 # TODO add clear configuration example
 ```
 
-## Changelog
+## Changelog / todolist
 
 * [x] up to date (Start Bootstrap Agency v7.0.7, Bootstrap v5.1.1)
-* [ ] remove external fonts
-* [ ] minify CSS and JS using [webassets](https://pypi.org/project/webassets/)
+* [x] add `author` and `description` in html meta tags
+* [x] remove external fonts
+* [x] remove external icons (fontawesome) and embed it in template
+* [x] manually minified JS and CSS files
 * [ ] images lazy-loading
+* [ ] embed the google fonts in template to recover nice fonts style
+* [ ] verify the PHP contact form
 
 ## to use for later (move it in getting started section)
 
