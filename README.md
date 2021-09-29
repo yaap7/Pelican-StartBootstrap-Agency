@@ -15,6 +15,17 @@ It has also been modified in order to get a good score on several analyze tools 
 
 So, some modifications was made to remove external files (fonts, CSS, JS) to reduce DNS resolution and make it more portable, compress images (use [webassets](https://pypi.org/project/webassets/)), and remove unused CSS and JS (planned).
 
+## Features
+
+* ✅ A++ score on all tools listed above
+* ✅ images optimization (WebP)
+* ✅ static ressources minified (CSS and JS)
+* ✅ no render blocking ressources
+* ✅ all ressources are embeded with this template: number of DNS request reduced to the minimum, and no tracking via CDN.
+* ⏳ images lazy-loading
+* ⏳ contact form send mail using PHP
+* ❌ nice Google fonts
+
 ## Getting started
 
 ``` bash
