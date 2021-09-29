@@ -17,7 +17,7 @@ So, some modifications was made to remove external files (fonts, CSS, JS) to red
 
 ## Features
 
-* ✅ A++ score on all tools listed above
+* ✅ **A++ score** on all tools listed above
 * ✅ images optimization (WebP)
 * ✅ static ressources minified (CSS and JS)
 * ✅ no render blocking ressources
@@ -42,6 +42,7 @@ So, some modifications was made to remove external files (fonts, CSS, JS) to red
 * [ ] images lazy-loading
 * [ ] embed the google fonts in template to recover nice fonts style
 * [ ] verify the PHP contact form
+* [ ] verify if the pelican variables are used (e.g. `INTRO_LG` and `PORTFOLIO_TITLE`)
 
 ## to use for later (move it in getting started section)
 
@@ -63,10 +64,10 @@ Want another functionnality or have an issue with this template? Open a new issu
 
 ## Creators
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Start Bootstrap was created by and is maintained by [David Miller](http://davidmiller.io/), Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+* <https://twitter.com/davidmillerskt>
+* <https://github.com/davidtmiller>
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
@@ -74,4 +75,4 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 The Agency theme code is released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE) license.
 
-This port us also released under the [MIT](https://github.com/yaap7/Pelican-StartBootstrap-Agency/blob/master/LICENSE) license.
+This port is also released under the [MIT](https://github.com/yaap7/Pelican-StartBootstrap-Agency/blob/master/LICENSE) license.
