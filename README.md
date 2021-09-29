@@ -17,7 +17,7 @@ So, some modifications was made to remove external files (fonts, CSS, JS) to red
 
 ## Features
 
-* ✅ **A++ score** on all tools listed above
+* ✅ **A++ score** on all tools listed above by default
 * ✅ images optimization (WebP)
 * ✅ static ressources minified (CSS and JS)
 * ✅ no render blocking ressources
